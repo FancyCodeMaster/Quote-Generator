@@ -6,10 +6,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="shortcut icon" href="https://www.google.com/s2/u/0/favicons?domain=rikeshsilwalkhatri.com.np" type="image/png">
-    <title>Template</title>
+    <title>Quote Generator</title>
 </head>
 <body>
-    <h1>Check it</h1>
+    <!-- Quote Container -->
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote" id="quote">
+            <i class="fas fa-quote-left"></i><span class="quoteText" id="quoteText"></span>
+        </div>
+        <!-- Author -->
+        <div class="author" id="author">
+            <span class="authorText" id="authorText"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container" id="button-container">
+            <button class="twitter" id="twitter">
+                <i class="fab fa-twitter">
+
+                </i>
+            </button>
+            <button class="next-quote" id="next-quote">
+                <span>Next Quote</span>
+            </button>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
     <!-- Script  -->
     <script src="script.js"></script>
 </body>
